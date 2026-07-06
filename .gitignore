@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+.kotlin/
+
+# example build output
+Examples/*/build/
+Examples/*/.gradle/
