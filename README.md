@@ -41,7 +41,7 @@ dependencies {
 }
 ```
 
-The model (int8 ONNX) and tokenizer are bundled in the artifact, so there is no
+The model (int4 ONNX, ~13.7 MB) and tokenizer are bundled in the artifact, so there is no
 download at runtime. The library runs the model with
 [ONNX Runtime](https://onnxruntime.ai). On **Android**, exclude the desktop
 runtime and add the Android one instead - the Java API is identical:
