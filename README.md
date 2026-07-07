@@ -37,7 +37,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts
 dependencies {
-    implementation("com.github.Desert-Ant-Labs:redact-kotlin:0.2.0")
+    implementation("com.github.Desert-Ant-Labs:redact-kotlin:0.2.1")
 }
 ```
 
@@ -47,7 +47,7 @@ download at runtime. The library runs the model with
 runtime and add the Android one instead - the Java API is identical:
 
 ```kotlin
-implementation("com.github.Desert-Ant-Labs:redact-kotlin:0.2.0") {
+implementation("com.github.Desert-Ant-Labs:redact-kotlin:0.2.1") {
     exclude(group = "com.microsoft.onnxruntime", module = "onnxruntime")
 }
 implementation("com.microsoft.onnxruntime:onnxruntime-android:1.20.0")
