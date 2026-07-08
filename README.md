@@ -1,10 +1,13 @@
-# Redact (Kotlin)
+# Redact: On-device PII Redaction for Kotlin (Android, JVM)
 
 On-device multilingual PII redaction for JVM and Android. Detects and masks
 personal data (names, addresses, emails, phone numbers, cards, IBANs, national
 IDs, VAT numbers and more) in text across **all 24 official EU languages** (Latin,
 Greek and Cyrillic scripts). Everything runs on device; the text never leaves the
-machine.
+machine. Scrub PII from customer support records, LLM prompts, and application logs
+so the raw data never reaches a server, yours or a third party's. Keep the
+placeholder mapping and redaction is reversible pseudonymization
+(restore the originals later); drop it and the masked text is permanently anonymized.
 
 ```kotlin
 import ai.desertant.redact.Redact
